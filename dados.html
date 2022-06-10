@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recicla Tauba</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+
+<body style="background-color: #f9f9f9;">
+    <header class="shadow-sm">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="recicla-tauba.png" height="90px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <div class="navbar-nav ms-auto h5">
+                        <a class="nav-link active text-dark " aria-current="page" href="#footer">Contato</a>
+                        <a class="nav-link text-dark" href="sobre.html">Sobre</a>
+                        <a class="nav-link text-dark" href="lista.html">Horários</a>
+                        <a class="nav-link text-dark" href="#">Notícias</a>
+                        <li class="nav-item dropdown text-dark">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdownMenuLink"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Educação Ambiental
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#"></a></li>
+                                <li><a class="dropdown-item" href="#">Como reciclar</a></li>
+                                <li><a class="dropdown-item" href="#">O que reciclar</a></li>
+                            </ul>
+                        </li>
+                    </div>
+                </div>
+        </nav>
+    </header>
+    <!-- main -->
+    <div class="container  mt-5">
+        <div class="row">
+            <section class="col-md-8 bg-white rounded-3">
+                <!--Section-->
+                <div class="container">
+                    <h2>Confira a lista de bairros, listas e horários de coleta:</h2>
+                    <h4>Ou, procure pelo seu bairro: </h4>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Digite um bairro...">
+                        <span class="input-group-text" style="cursor: pointer;"><i class="bi bi-search"></i></span>
+                    </div>
+                    <table class="table table-striped">
+                        <tr>
+                            <th>Bairro</th>
+                            <th>Quilos reciclados</th>
+                            <th>Percentual em relação ao período anterior</th>
+                        </tr>
+                        <tr>
+                            <td>Alto São João</td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Bom Conselho </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Central Parque </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Centro </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Chafariz </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Chácara Dr. Hipólito </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Chácara Pastorelli </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Conjunto Urupês </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Distrito Industrial do Una I </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Gurilândia </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Independência </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Jaboticabeiras </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Jardim Ana Emília </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Jardim Ana Rosa </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Jardim Eulália </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Jardim Humaitá </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Jardim Mansur </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Jardim Marajoara </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Jardim Maria Augusta </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Jardim Russi </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Jardim Santa Clara </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Jardim Santa Cruz </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Jardim das Nações </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Jardim de Alá </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Jardim do Sol </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Jardim dos Pássaros </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Loteamento Bardan </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Parque Paduan </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Parque Taubatéguassu </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Residencial Sítio Santo Antônio </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Residencial Vale dos Príncipes </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Santa Luzia </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Shalom </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Vila Olímpia </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Vila Paulista </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Vila São Carlos </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Vila São José </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        </ul>
+                        <tr>
+                            <td>Baracéia </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Barreiro Rural </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Borba </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Caieiras </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Carapeva </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Constroem </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Mangalot </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Monjolinho </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Paiol </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Pedra Grande </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Pedra Negra </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Piedade </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Pinheirinho </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Pouso Frio </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Registro </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Remédios </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Rocinha </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Santa Luzia Rural </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Sete Voltas </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Água Quente </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Areão </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Barranco </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Chácara do Visconde </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Emecal </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Esplanada Santa Terezinha </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Estiva </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Granja Daniel </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Granville </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Jair Freire </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Jaraguá Novo </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Jaraguá Velho </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Jardim Boa Vista </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Jardim Califórnia </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Jardim Canuto Borges </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Jardim Garcez </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Jardim Morumbi </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Jardim Mourisco </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Jardim Resende </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Jardim Santa Catarina </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Jardim Santa Inês </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Jardim Santa Isabel </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Monção </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Parque Bandeirantes </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Parque Ipanema </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Parque Mauá </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Parque Piratininga </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Parque Planalto </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Parque Sabará </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Parque São Cristóvão </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Parque São Luís </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Rancho Grande </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Vila Aparecida </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Vila Albina </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Vila das Graças </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Vila Marli </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Vila Nogueira </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Vila Prosperidade </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Vila São Geraldo </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Abaeté </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Jardim Bela Vista </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Bonfim </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Bosque Flamboyant </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Chácara Florida </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Distrito Industrial do Piracancaguá </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Esplanada Independência </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Greenpark </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Jardim das Indústrias </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Jardim Marieta </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Jardim Oásis </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Jardim Primavera </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Jardim Santa Teresa </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Ouroville </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Portal da Mantiqueira </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Quiririm </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Residencial Novo Horizonte </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>San Marco </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Santa Fé </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Taubaté Village </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Vila Costa </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Vila Edmundo </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        </ul>
+                        <tr>
+                            <td>Alto São Pedro </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Barreiro </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Belém </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Campos Elíseos </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Cataguá </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Cataguá Way </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Chácara Belo Horizonte </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Chácara Dallas </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Chácaras Reunidas Brasil </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Cidade de Deus </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Cidade Jardim </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Dalla Rosa </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Estoril </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Fonte Imaculada </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Imaculada </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Jardim América </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Jardim Bela Vista </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Jardim Continental I </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Jardim Continental II </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Jardim Hípica Pinheiro </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Jardim Julieta </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Jardim Paulista </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Granja Bela Vista </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Marlene Miranda </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Montebelo </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Morada do Vale </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Morada dos Nobres </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Quinta das Frutas </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Quinta dos Eucaliptos </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Residencial Colinas </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Residencial Paraíso </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>São Gonçalo </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Vila Regedor </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Bosque da Saúde </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Chácara São Judas </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Chácara Silvestre </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Itaim </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Parque Três Marias </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                        <tr>
+                            <td>Terra Nova </td>
+                            <td>223kg</td>
+                            <td class="text-success fw-bolder">+5%</td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+            <aside class="col-md-4 ">
+                <!--ASIDE-->
+                <h3>Confira nossos Serviços</h3>
+                <div class="row">
+                    <div class="card m-1 col-md-12 col-5" style="cursor:pointer;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="reciclagem-logo.png" class="img-fluid rounded-start;" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Idéias sustentáveis</h5>
+                                    <p class="card-text"><small class="text-muted">Ontem</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card m-1 col-md-12 col-5" style="cursor:pointer;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="reciclagem-logo2.png" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Taubaté em foco</h5>
+                                    <p class="card-text"><small class="text-muted">20/05/20222</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="row">
+                    <div class="card m-1 col-md-12 col-5" style="cursor:pointer;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="reciclagem-logo.png" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Relatório de reciclagem Maio</h5>
+                                    <p class="card-text"><small class="text-muted">02/05/2022</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card m-1 col-md-12 col-5" style="cursor:pointer;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="reciclagem-logo2.png" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Reciclagem de eletrônicos</h5>
+                                    <p class="card-text"><small class="text-muted">01/05/2022</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </aside>
+        </div>
+    </div>
+
+
+
+
+    <!-- footer -->
+    <div class="container-fluid bg-white mt-4 overflow-hidden" style="min-height: 100px;" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <p class="fs-4">Acompanhe nossas redes sociais</p>
+                    <div class="fs-3">
+                        <i class="bi bi-facebook ms-2" style="cursor: pointer;"></i>
+                        <i class="bi bi-instagram ms-2" style="cursor: pointer;"></i>
+                        <i class="bi bi-twitter ms-2" style="cursor: pointer;"></i>
+                        <i class="bi bi-linkedin ms-2" style="cursor: pointer;"></i>
+                    </div>
+                    <img src="recicla-tauba.jpg" alt="reciclaTauba" height="120px" class="my-3 img-fluid" srcset="">
+                </div>
+                <div class="col-4">
+                    <p class="fs-4">Contato</p>
+                    <div class="lh-sm">
+                        <p>Avenida Dr. Genivaldo, 1200, Parque Taubateguassu,</p>
+                        <p>Taubaté - SP</p>
+                        <p>CEP - 12321-110</p>
+                        <p>+55 12 98170-7070</p>
+                        <p>contato@reciclatauba.org.br</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <img src="logo-tauba.jpg" class="img-fluid my-1">
+                    <img src="systemTauba.jpg" class="img-fluid my-1">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,1502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADM - Pontos de coleta</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+<body>
+    
+    <body style="background-color: #f9f9f9;">
+        <header class="shadow-sm">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html"><img src="recicla-tauba.png" height="90px"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <div class="navbar-nav ms-auto h5">
+                            <a class="nav-link active text-danger " aria-current="page" href="#footer">Pontos de coleta</a>
+                            <a class="nav-link text-danger" href="sobre.html">Dados de coleta</a>
+                            
+                        </div>
+                    </div>
+            </nav>
+        </header>
+        <!-- main -->
+        <div class="container  mt-5">
+            <div class="row">
+                <section class="col-12 bg-white rounded-3">
+                    <!--Section-->
+                    <div class="container">
+                        <h2>Edite ou exclua horários/locais </h2>
+                        <table class="table table-striped">
+                            <tr>
+                                <th>Bairro</th>
+                                <th>Dia</th>
+                                <th>Hora</th>
+                                <th>Opção</th>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Alto São João"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Bom Conselho"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Central Parque"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Centro"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Chafariz"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Chácara Dr. Hipólito"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Chácara Pastorelli"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Conjunto Urupês"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Distrito Industrial do Una I"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Gurilândia"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Independência"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Jaboticabeiras"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Jardim Ana Emília"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Jardim Ana Rosa"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Jardim Eulália"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Jardim Humaitá"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Jardim Mansur"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Jardim Marajoara"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Jardim Maria Augusta"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Jardim Russi"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Jardim Santa Clara"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Jardim Santa Cruz"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Jardim das Nações"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Jardim de Alá"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Jardim do Sol"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Jardim dos Pássaros"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Loteamento Bardan"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Parque Paduan"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Parque Taubatéguassu"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Residencial Sítio Santo Antônio"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Residencial Vale dos Príncipes"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Santa Luzia"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Shalom"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Vila Olímpia"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Vila Paulista"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Vila São Carlos"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Vila São José"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            </ul>
+                            <tr>
+                                <td><input type="text" value="Baracéia"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Barreiro Rural"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Borba"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Caieiras"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Carapeva"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Constroem"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Mangalot"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Monjolinho"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Paiol"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Pedra Grande"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Pedra Negra"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Piedade"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Pinheirinho"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Pouso Frio"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Registro"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Remédios"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Rocinha"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Santa Luzia Rural"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Sete Voltas"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Água Quente"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Areão"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Barranco"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Chácara do Visconde"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Emecal"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Esplanada Santa Terezinha"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Estiva"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Granja Daniel"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Granville"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Jair Freire"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Jaraguá Novo"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Jaraguá Velho"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Jardim Boa Vista"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Jardim Califórnia"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Jardim Canuto Borges"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Jardim Garcez"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Jardim Morumbi"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Jardim Mourisco"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Jardim Resende"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Jardim Santa Catarina"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Jardim Santa Inês"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Jardim Santa Isabel"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Monção"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Parque Bandeirantes"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Parque Ipanema"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Parque Mauá"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Parque Piratininga"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Parque Planalto"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Parque Sabará"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Parque São Cristóvão"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Parque São Luís"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Rancho Grande"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Vila Aparecida"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Vila Albina"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Vila das Graças"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Vila Marli"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Vila Nogueira"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Vila Prosperidade"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Vila São Geraldo"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Abaeté"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Jardim Bela Vista"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Bonfim"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Bosque Flamboyant"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Chácara Florida"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Distrito Industrial do Piracancaguá"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Esplanada Independência"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Greenpark"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Jardim das Indústrias"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Jardim Marieta"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Jardim Oásis"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Jardim Primavera"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Jardim Santa Teresa"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Ouroville"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Portal da Mantiqueira"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Quiririm"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Residencial Novo Horizonte"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="San Marco"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Santa Fé"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Taubaté Village"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Vila Costa"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Vila Edmundo"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            </ul>
+                            <tr>
+                                <td><input type="text" value="Alto São Pedro"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Barreiro"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Belém"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Campos Elíseos"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Cataguá"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Cataguá Way"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Chácara Belo Horizonte"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Chácara Dallas"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Chácaras Reunidas Brasil"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Cidade de Deus"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Cidade Jardim"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Dalla Rosa"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Estoril"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Fonte Imaculada"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Imaculada"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Jardim América"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Jardim Bela Vista"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Jardim Continental I"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Jardim Continental II"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Jardim Hípica Pinheiro"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Jardim Julieta"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Jardim Paulista"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Granja Bela Vista"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Marlene Miranda"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Montebelo"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Morada do Vale"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Morada dos Nobres"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Quinta das Frutas"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Quinta dos Eucaliptos"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Residencial Colinas"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Residencial Paraíso"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="São Gonçalo"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Vila Regedor"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Bosque da Saúde"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Chácara São Judas"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Chácara Silvestre"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Itaim"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Parque Três Marias"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" value="Terra Nova"></td>
+                                <td><input type="text" value="Quinta-feira"></td>
+                                <td><input type="text" value="16:00~17:00"></td>
+                                <td>
+                                    <i class="bi bi-trash-fill text-white bg-danger p-2 rounded-circle" onclick="confirm('Tem certeza que deseja excluir local/horário de coleta?')"></i>
+                                    <i class="bi bi-save2-fill text-white bg-success p-2 rounded-circle" onclick="alert('Salvo com sucesso!')"></i>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </section>
+                
+                    
+    
+    
+            </div>
+        </div>
+    
+    
+    
+    
+        <!-- footer -->
+        <div class="container-fluid bg-white mt-4 overflow-hidden" style="min-height: 100px;" id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <p class="fs-4">Acompanhe nossas redes sociais</p>
+                        <div class="fs-3">
+                            <i class="bi bi-facebook ms-2" style="cursor: pointer;"></i>
+                            <i class="bi bi-instagram ms-2" style="cursor: pointer;"></i>
+                            <i class="bi bi-twitter ms-2" style="cursor: pointer;"></i>
+                            <i class="bi bi-linkedin ms-2" style="cursor: pointer;"></i>
+                        </div>
+                        <img src="recicla-tauba.jpg" alt="reciclaTauba" height="120px" class="my-3 img-fluid" srcset="">
+                    </div>
+                    <div class="col-4">
+                        <p class="fs-4">Contato</p>
+                        <div class="lh-sm">
+                            <p>Avenida Dr. Genivaldo, 1200, Parque Taubateguassu,</p>
+                            <p>Taubaté - SP</p>
+                            <p>CEP - 12321-110</p>
+                            <p>+55 12 98170-7070</p>
+                            <p>contato@reciclatauba.org.br</p>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <img src="logo-tauba.jpg" class="img-fluid my-1">
+                        <img src="systemTauba.jpg" class="img-fluid my-1">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+    </body>
+    
+    </html>
